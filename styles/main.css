@@ -1,0 +1,82 @@
+html, body, h1, h2, h3, p, ol, li, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+body {
+    background: #5f5f5f url(../assets/hip-square.webp);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin: 10px 0 15px 0;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: #393A10;
+}
+
+h2 {
+    padding: 10px 0 10px 0;
+    margin: 10px 0 20px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #E1B07E;
+}
+
+ul li {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.header {
+    background-color: #86A397;
+    padding: 10px 10px 10px 10px;
+}
+
+.main-content {
+    width: 800px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #86A397;
+    margin: 30px auto 0 auto;
+    background: #ffffff url(../assets/photo-1455218873509-8097305ee378.avif) center;
+}
+
+.nav {
+    padding-left: 0;
+    margin: 5px 0 20px 0;
+    text-align: center;
+}
+
+.nav a {
+    color: #E1B07E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #393A10;
+}
+
+.nav li {
+    display: inline;
+    padding: 0 5px 0 5px;
+}
+
+.featured {
+    margin: 10px 0 15px 0;
+    text-align: center;
+}
+
+.featured-img {
+    width: 100%;
+    height: 800px;
+    background: #ffffff url();
+}
