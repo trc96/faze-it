@@ -25,7 +25,7 @@ h2 {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    color: #E1B07E;
+    color: #393A10;
 }
 
 ul li {
@@ -43,11 +43,13 @@ a {
 }
 
 .main-content {
-    width: 800px;
+    max-width: 645px;
     padding: 20px 20px 20px 20px;
-    border: 1px solid #86A397;
+    border: 2px solid #E1B07E;
     margin: 30px auto 0 auto;
     background: #ffffff url(../assets/photo-1455218873509-8097305ee378.avif) center;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 .nav {
@@ -71,12 +73,69 @@ a:hover {
 }
 
 .featured {
-    margin: 10px 0 15px 0;
-    text-align: center;
+    margin: 10px auto 15px 0;
+    padding-left: 15px;
+    text-align: left;
+    background-color: #86A397;
+    border: 2px #E1B07E solid;
+}
+
+.featured a {
+    color:  #E1B07E;
 }
 
 .featured-img {
-    width: 100%;
-    height: 800px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 500px;
+    margin: 10px auto 10px auto;
     background: #ffffff url();
+    border: 2px #E1B07E solid;
 }
+
+.featured-button {
+    margin: 20px auto 0 auto;
+    border: 2px #E1B07E solid;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: auto;
+    padding: 20px 10px 20px 10px;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #393A10;
+    background-color: #86A397;
+}
+
+.products-list {
+    padding: 10px 10px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.products-list img {
+    display: block;
+    margin: 0 0 0 0;
+}
+
+.products-list h3 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    border: 2px #E1B07E solid;
+    background-color: #86A397;
+    color: #393A10;
+}
+
+.product-image {
+    background: #ffffff url(../assets/ef3-placeholder-image.jpg);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
